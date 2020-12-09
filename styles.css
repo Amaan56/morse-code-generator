@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
+* {
+  margin: 0;
+}
+
+.main-content {
+  background: url('matrix.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.8;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+
+nav {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 900;
+  font-weight: bolder;
+  height: 5vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.translate-btn {
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Russo One', sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-area {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Russo One', sans-serif;
+  color: black;
+  width: 400px;
+  height: 400px;
+  resize: none;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.output-area {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  color: black;
+  padding: 4px;
+  font-size: 20px;
+}
