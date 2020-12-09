@@ -25,6 +25,12 @@ nav {
   height: 5vh;
 }
 
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -55,6 +61,7 @@ main {
   resize: none;
   font-size: 20px;
   padding: 4px;
+  border-radius: 5px;
 }
 
 .output-area {
@@ -64,6 +71,7 @@ main {
   color: black;
   padding: 4px;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -72,11 +80,34 @@ main {
   }
   .input-area {
     width: 60vw;
-    height: 10rem;
+    height: 20vh;
   }
 
   .output-area {
     width: 60vw;
-    height: 10rem;
+    height: 20vh;
   }
+}
+
+@media only screen and (max-width: 540px) {
+  * {
+    font-size: 10px;
+  }
+  .input-area {
+    font-size: 12px;
+  }
+}
+
+.about-section {
+  padding: 1rem;
+}
+
+.about-section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
