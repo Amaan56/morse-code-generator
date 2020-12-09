@@ -32,24 +32,26 @@ main {
   width: 90vw;
   margin: auto;
   height: 80vh;
+  /* flex-wrap: wrap; */
 }
 
 .translate-btn {
   padding: 1rem 3rem;
-  border-radius: 10px;
-  font-size: 20px;
+  border-radius: 1rem;
+  font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Russo One', sans-serif;
   outline: none;
   cursor: pointer;
+  margin: 1rem 0;
 }
 
 .input-area {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Russo One', sans-serif;
   color: black;
-  width: 400px;
-  height: 400px;
+  width: 25rem;
+  height: 25rem;
   resize: none;
   font-size: 20px;
   padding: 4px;
@@ -57,9 +59,24 @@ main {
 
 .output-area {
   background-color: white;
-  width: 400px;
-  height: 400px;
+  width: 25rem;
+  height: 25rem;
   color: black;
   padding: 4px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    flex-direction: column;
+  }
+  .input-area {
+    width: 60vw;
+    height: 10rem;
+  }
+
+  .output-area {
+    width: 60vw;
+    height: 10rem;
+  }
 }
